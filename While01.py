@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    number=0
+    while a<len(s):
+        if s[a].isdigit()==True:
+            number = number + 1
+        a = a + 1
+    return number
+print(main("fs5675 taxg6"))
